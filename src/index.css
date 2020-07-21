@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url(./fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Rokkit';
+  src: local('Rokkit'), url(./fonts/Rokkitt-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'VT323';
+  src: local('VT323'), url(./fonts/VT323-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bangers';
+  src: local('Bangers'), url(./fonts/Bangers-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: local('Lobster'), url(./fonts/Lobster-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: local('Space Mono'),
+    url(./fonts/SpaceMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Special Elite';
+  src: local('Special Elite'),
+    url(./fonts/SpecialElite-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-size: 14px;
+  font-family: 'Space Mono';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
