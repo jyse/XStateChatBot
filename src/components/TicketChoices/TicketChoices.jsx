@@ -10,7 +10,7 @@ const defaultProps = {
       value: 'new_ticket',
       label: (
         <Fragment>
-          <IconNew /> Create New Ticket
+          <IconNew /> Yes
         </Fragment>
       )
     },
@@ -19,7 +19,7 @@ const defaultProps = {
       label: (
         <Fragment>
           <IconFind />
-          Find Existing Ticket
+          No
         </Fragment>
       )
     }

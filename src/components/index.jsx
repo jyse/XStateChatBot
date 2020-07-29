@@ -1,7 +1,7 @@
 import React, { Component } from 'react'; /*eslint-disable-line */
 import { StateMachine } from 'xstate'; /*eslint-disable-line */
 import TicketContainer from './TicketContainer';
-import {configureMachine }  from '../stateMachine/flowMachine';
+import {configureMachine }  from '../flowMachine';
 
 
 const logState = (state) => {

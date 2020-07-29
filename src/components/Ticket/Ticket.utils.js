@@ -7,7 +7,7 @@ import {
   newTicket,
   done,
   pingTicket
-} from '../../stateMachine/flowMachine';
+} from '../../flowMachine';
 
 
 const stateContainsKey = (currentState, key) =>

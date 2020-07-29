@@ -8,7 +8,7 @@ import {
   done,
   pingTicket,
   question
-} from '../../stateMachine/flowMachine';
+} from '../../flowMachine';
 import TicketChoices from '../TicketChoices';
 import PeripheralChoices from '../PeripheralChoices.jsx';
 import FindTicketForm from '../FindTicketForm';
